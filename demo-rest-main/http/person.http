@@ -1,0 +1,95 @@
+###//Para variables locales
+
+GET http://localhost:8080/per
+
+###// Para conneccion a la BBDD
+
+GET http://localhost:8080/per/9
+
+###// Para la tabla de Person
+
+GET http://localhost:8080/per
+
+###//Para una columna de la tabla Person
+
+GET http://localhost:8080/per/5
+
+###// Para imprimir el [Lsitado de toda la tabla de persona
+
+GET http://localhost:8080/per
+
+###//Para
+
+POST http://localhost:8080/per
+Content-Type: application/json
+Accept: application/json
+
+{
+     "id_person": "",
+     "id_geolocation": 4,
+     "first_name": "Gabrie",
+     "last_name": "Lopez",
+     "email": "gabri123@gmail.com",
+     "date_of_birth": "1994-02-19",
+     "phone_number": 6345678,
+     "address": "Villa Dolores",
+     "city": "La Paz",
+     "status": 1,
+     "tx_date": "now()",
+     "tx_id_user": 2,
+     "tx_host": "127.0.0.1",
+     "tx_update": "now()"
+}
+
+###// Para imprimir el [Lsitado de toda la tabla de persona
+
+POST http://localhost:8080/per
+Content-Type: application/json
+Accept: application/json
+
+{  "id_geolocation": 4,
+     "first_name": "Gabriel",
+     "last_name": "Lopez",
+     "email": "gabri123@gmail.com",
+     "date_of_birth": "1994-02-19",
+     "phone_number": 6345678,
+     "address": "Villa Dolores",
+     "city": "La Paz",
+     "status": 1
+}
+###// Para
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

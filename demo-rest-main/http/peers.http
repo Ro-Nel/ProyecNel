@@ -1,0 +1,7 @@
+###// Para la tabla de Person
+
+GET http://localhost:8080/peers
+
+###//Para una columna de la tabla Person
+
+GET http://localhost:8080/peers/5

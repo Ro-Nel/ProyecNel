@@ -1,0 +1,23 @@
+###
+
+GET http://localhost:8080/clinica/1
+
+###
+GET http://localhost:8080/clinica/18
+
+###
+GET http://localhost:8080/clinica
+
+###
+POST http://localhost:8080/clinica
+Content-Type: application/json
+Accept: application/json
+
+{
+  "nombre": "CAlor",
+  "apellido": "Escobar"
+}
+
+
+###
+GET https://ucb.edu.bo

@@ -1,0 +1,23 @@
+###
+
+GET http://localhost:8080/persona/1
+
+###
+GET http://localhost:8080/persona/18
+
+###
+GET http://localhost:8080/persona
+
+###
+POST http://localhost:8080/persona
+Content-Type: application/json
+Accept: application/json
+
+{
+   "nombre": "CAlor",
+   "apellido": "Escobar"
+}
+
+
+###
+GET https://ucb.edu.bo
